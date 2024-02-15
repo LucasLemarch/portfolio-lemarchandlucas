@@ -4,6 +4,7 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import {PageAccueil} from "./pages/Accueil";
 import {PageProjets} from "./pages/Projets";
 import "./index.css";
+import "./traductions/i18n";
 
 const router = createBrowserRouter([
     {
