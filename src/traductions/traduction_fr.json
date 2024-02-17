@@ -1,3 +1,6 @@
 {
-  "test": "français"
+  "header": {
+    "projets": "Mes Projets",
+    "langues": "Langue"
+  }
 }

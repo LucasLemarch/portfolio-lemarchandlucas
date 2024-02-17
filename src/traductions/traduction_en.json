@@ -1,3 +1,6 @@
 {
-  "test": "anglais"
+  "header": {
+    "projets": "My Projects",
+    "langues": "Language"
+  }
 }
