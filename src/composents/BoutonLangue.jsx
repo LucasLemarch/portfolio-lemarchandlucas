@@ -13,7 +13,7 @@ export const BoutonLangue = () => {
     }
 
     const SelectLangue = styled(Select)({
-        color: "white",
+        color: "#FFE7D4",
     })
 
     return (

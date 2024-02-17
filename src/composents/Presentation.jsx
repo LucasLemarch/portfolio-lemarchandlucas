@@ -5,7 +5,7 @@ import {useTranslation} from "react-i18next";
 
 export const Presentation = () => {
     const { t} = useTranslation();
-    const estPetitEcran = useMediaQuery('(max-width:800px)');
+    const estPetitEcran = useMediaQuery('(max-width:900px)');
     const tailleImage = estPetitEcran ? "200px" : "250px";
     const largeurTexte = estPetitEcran ? "75%" : "50%";
 
@@ -17,20 +17,20 @@ export const Presentation = () => {
         <Stack
             display="flex"
             direction="row"
-            alignItems="center"
+
+            justifyContent="center"
+
             width="100%"
             pt={6}
         >
             <Stack
-                display="flex"
+                width={largeurTexte}
                 direction="row"
-                justifyContent="flex-end"
-                width="50%"
-                pr={6}
+                alignItems="center"
+                gap={5}
             >
-                <Stack
-                    width={largeurTexte}
-                >
+
+                <Stack>
                     <TypographyPresentation variant="h5" color="black" fontWeight="bold">
                         {t('presentation.description.titre')}
                     </TypographyPresentation>
@@ -40,10 +40,6 @@ export const Presentation = () => {
                     </TypographyPresentation>
                 </Stack>
 
-            </Stack>
-            <Stack
-                p="auto"
-            >
                 <img
                     src={photo}
                     alt={t('presentation.photo')}
@@ -53,3 +49,35 @@ export const Presentation = () => {
         </Stack>
     )
 };
+
+/**
+ * <Stack
+ *                 display="flex"
+ *                 direction="row"
+ *                 justifyContent="flex-end"
+ *                 width="50%"
+ *                 pr={6}
+ *             >
+ *                 <Stack
+ *                     width={largeurTexte}
+ *                 >
+ *                     <TypographyPresentation variant="h5" color="black" fontWeight="bold">
+ *                         {t('presentation.description.titre')}
+ *                     </TypographyPresentation>
+ *                     <br/>
+ *                     <TypographyPresentation variant="body1" color="black">
+ *                         {t('presentation.description.corps')}
+ *                     </TypographyPresentation>
+ *                 </Stack>
+ *
+ *             </Stack>
+ *             <Stack
+ *                 p="auto"
+ *             >
+ *                 <img
+ *                     src={photo}
+ *                     alt={t('presentation.photo')}
+ *                     width={tailleImage}
+ *                 />
+ *             </Stack>
+ */

@@ -8,7 +8,7 @@ export const Header = () => {
     const { t} = useTranslation();
 
     const BoutonProjets = styled(Button)({
-        color: 'white',
+        color: '#FFE7D4',
     })
 
     return (
@@ -18,7 +18,7 @@ export const Header = () => {
                 justifyContent="space-between"
                 alignItems="center"
                 p={3}
-                backgroundColor="#3F51D7"
+                backgroundColor="#494E5F"
             >
                 <Typography variant="h4" color="white">
                     Lemarchand Lucas
