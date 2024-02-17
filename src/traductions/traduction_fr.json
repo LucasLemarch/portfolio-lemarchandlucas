@@ -1,6 +1,12 @@
 {
   "header": {
-    "projets": "Mes Projets",
-    "langues": "Langue"
+    "projets": "Mes Projets"
+  },
+  "presentation": {
+    "photo": "Photo de Lucas Lemarchand",
+    "description": {
+      "titre": "Bonjour moi c'est Lucas et bienvenue sur mon portfolio.",
+      "corps": "Cela va faire maintenant 5 ans que l'informatique est devenu une passion en plus de mes études, j'ai donc eu l'occasion de coder plusieurs projets. Vous pourrez trouver ici mon parcours ainsi qu'une présentation des différents projets que j'ai réalisés tout au long de ma vie."
+    }
   }
 }
