@@ -5,8 +5,21 @@
   "presentation": {
     "photo": "Photo de Lucas Lemarchand",
     "description": {
-      "titre": "Bonjour moi, c'est Lucas et bienvenue sur mon portfolio.",
+      "titre": "Bonjour, moi c'est Lucas et bienvenue sur mon portfolio.",
       "corps": "Cela va faire maintenant 5 ans que l'informatique est devenu une passion en plus de mes études, j'ai donc eu l'occasion de coder plusieurs projets. Vous pourrez trouver ici mon parcours ainsi qu'une présentation des différents projets que j'ai réalisés tout au long de ma vie."
+    }
+  },
+  "etudes": {
+    "titre": "Parcours scolaire",
+    "etude1": {
+      "nom": "nom etude 1",
+      "date": "date etude 1",
+      "description": "description etude 1"
+    },
+    "etude2": {
+      "nom": "nom etude 2",
+      "date": "date etude 2",
+      "description": "description etude 2"
     }
   }
 }

@@ -49,35 +49,3 @@ export const Presentation = () => {
         </Stack>
     )
 };
-
-/**
- * <Stack
- *                 display="flex"
- *                 direction="row"
- *                 justifyContent="flex-end"
- *                 width="50%"
- *                 pr={6}
- *             >
- *                 <Stack
- *                     width={largeurTexte}
- *                 >
- *                     <TypographyPresentation variant="h5" color="black" fontWeight="bold">
- *                         {t('presentation.description.titre')}
- *                     </TypographyPresentation>
- *                     <br/>
- *                     <TypographyPresentation variant="body1" color="black">
- *                         {t('presentation.description.corps')}
- *                     </TypographyPresentation>
- *                 </Stack>
- *
- *             </Stack>
- *             <Stack
- *                 p="auto"
- *             >
- *                 <img
- *                     src={photo}
- *                     alt={t('presentation.photo')}
- *                     width={tailleImage}
- *                 />
- *             </Stack>
- */
